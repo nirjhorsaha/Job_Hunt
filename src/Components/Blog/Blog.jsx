@@ -5,7 +5,7 @@ const Blog = () => {
     return (
         <div>
             <div className="w-10/12 mx-auto mt-8 text-oscuro">
-                <div className="flex flex-col justify-center w-full">
+                <div className="flex flex-col justify-center w-full ">
                     <div>
                         <section className="text-gray-700">
                             <div className="container mx-auto">
@@ -17,7 +17,7 @@ const Blog = () => {
                                         The most common questions about React Router
                                     </p>
                                 </div>
-                                <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+                                <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2 text-start">
                                     <div className="w-full lg:w-1/2 px-4 py-2">
                                         <details className="mb-4">
                                             <summary className="font-semibold  bg-gray-200 rounded-md py-2 px-4">
@@ -45,7 +45,7 @@ const Blog = () => {
                                             </summary>
 
                                             <span className="px-4 py-2">
-                                                useRef hook is part of the React Hooks API. It is a function which takes a maximum of one argument and returns an Object. The returned object has a property called current whose value is the argument passed to useRef. If you invoke it without an argument, the returned object's current property is set to undefined. <br /> <code>useRef</code> hook syntax is:  <code>const refContainer = useRef(initialValue);</code>
+                                                useRef hook is part of the React Hooks API. It is a function which takes a maximum of one argument and returns an Object. The returned object has a property called current whose value is the argument passed to useRef. If you invoke it without an argument, the returned object's current property is set to undefined. <br /> <code>useRef</code> hook syntax is: <br /> <code>const refContainer = useRef(initialValue);</code>
                                             </span>
                                         </details>
                                         <details className="mb-4">

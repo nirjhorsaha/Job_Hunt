@@ -8,6 +8,14 @@
   @apply border-4 text-xl bg-white p-4 
 }
 
+.custom-btn{
+  @apply btn border-0 bg-gradient-to-r from-indigo-500 to-indigo-800
+}
+
+.custom-text{
+  @apply inline-block bg-gradient-to-r from-indigo-500 to-indigo-800 bg-clip-text text-transparent
+}
+
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
