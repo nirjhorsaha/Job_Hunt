@@ -3,25 +3,25 @@
         "id": 1,
         "title": "Account & Finance",
         "available": "300+ Jobs Available",
-        "logo": "https://cdn-icons-png.flaticon.com/512/126/126210.png?w=740&t=st=1681067734~exp=1681068334~hmac=d800670e02b039e9309b7a96339fd50a0806a2e53dd200ddae11ea860d65bb1e"
+        "logo": "https://img.freepik.com/free-vector/illustration-calculator-machine_53876-5566.jpg?w=740&t=st=1681135895~exp=1681136495~hmac=9b4b3931ac77d9e8850db58e8f4205a1b5ed06a516c71969c050f992e6603296"
     },
     {
         "id": 2,
         "title": "Creative Design",
         "available": "100+ Jobs Available",
-        "logo": "https://cdn-icons-png.flaticon.com/512/1188/1188581.png?w=740&t=st=1681067926~exp=1681068526~hmac=f3c7f6acc6e5067fc8dcbd422e7c383d3a2cf9a68c2a36a249237a900602b473"
+        "logo": "https://img.freepik.com/free-vector/illustration-light-bulb-icon_53876-5597.jpg?w=740&t=st=1681135862~exp=1681136462~hmac=2dff853e6ca160d9427b939dd5d63b914df231c1f989d39724247c098051b265"
     },
     {
         "id": 3,
         "title": "Marketing & Sales",
-        "available": "150 Jobs Available",
-        "logo": "https://img.freepik.com/free-icon/analytics_318-849836.jpg?size=626&ext=jpg&uid=R98052471&ga=GA1.2.1454872783.1676182379"
+        "available": "150+ Jobs Available",
+        "logo": "https://img.freepik.com/free-vector/illustration-loudspeaker-icon_53876-5840.jpg?w=740&t=st=1681136005~exp=1681136605~hmac=038b124dcc8e86797334f6aa3859130333e1fa86188ee41a7f99fd31d87fdd03"
     },
     {
         "id": 4,
         "title": "Engineering Job",
-        "available": "224 Jobs Available",
-        "logo": "https://cdn-icons-png.flaticon.com/512/40/40208.png?w=740&t=st=1681067780~exp=1681068380~hmac=94f4df4cc5f20014f9bf395597f28842606034586cd8d630ecb522a4395dc9ba"
+        "available": "220+ Jobs Available",
+        "logo": "https://img.freepik.com/free-vector/illustration-circuit_53876-5583.jpg?w=740&t=st=1681135555~exp=1681136155~hmac=e355c2f1d9abdb72e5990f777254b8b3bd11b48b6320673c6789c7b70c8de831"
     }
     
 ]

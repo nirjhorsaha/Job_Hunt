@@ -40,7 +40,7 @@ const Navbar = () => {
                     </a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
+                    <ul className="menu menu-horizontal px-1 tracking-wider font-medium">
                         <li>
                             <Link to="/" className={({ isActive }) => (isActive ? 'text-blue-600' : 'default')}>
                                 Home

@@ -5,6 +5,7 @@ const JobSection = () => {
         <div className='text-center my-6'>
             <h1 className='text-5xl custom-text p-4'>Featured Jobs </h1>
             <p className='text-lg mt-4'>Explore thousands of job opportunities with all the information you need. Its your future</p>
+            <button className='custom-btn mt-6'>Show All</button>
         </div>
     );
 };
