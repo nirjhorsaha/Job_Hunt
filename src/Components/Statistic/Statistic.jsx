@@ -103,7 +103,7 @@ export default function App() {
                 right: 20,
                 left: 20,
                 bottom: 5
-            }} className="mx-auto border-0"
+            }} className="mx-auto"
         >
             <CartesianGrid strokeDasharray="3 3" />
             <XAxis dataKey="name" />

@@ -6,7 +6,7 @@ const Footer = () => {
         <div>
             <footer aria-label="Site Footer" className=" bg-slate-200 font-medium ">
                 <div
-                    className="max-w-screen-xl px-4 py-16 mx-auto space-y-8 sm:px-6 lg:space-y-16 lg:px-8 ">
+                    className="max-w-screen-xl px-4 py-8 mx-auto space-y-8 sm:px-6 lg:space-y-16 lg:p-12 ">
                     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 ">
                         <div>
                             <img src={CareerHub} alt="" srcset="" />
@@ -20,7 +20,7 @@ const Footer = () => {
                                         href="/"
                                         rel="noreferrer"
                                         target="_blank"
-                                        className="text-gray-700 transition hover:opacity-75"
+                                        className="text-gray-700 transition hover:opacity-80"
                                     >
                                         <span className="sr-only">Facebook</span>
 
@@ -234,7 +234,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <p className="text-xs text-gray-500">
+                    <p className="font-bold text-gray-500 text-center bg-gradient-to-r from-indigo-500 to-indigo-800 bg-clip-text text-transparent">
                         &copy; 2023. Career Hub. All rights reserved.
                     </p>
                 </div>
