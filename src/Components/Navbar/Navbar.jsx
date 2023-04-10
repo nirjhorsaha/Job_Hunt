@@ -35,8 +35,8 @@ const Navbar = () => {
                             </li>
                         </ul>
                     </div>
-                    <a className="normal-case text-xl">
-                        <img src={CareerHub} alt="" srcset="" />
+                    <a className="normal-case text-5xl custom-text font-bold"> Job Hunt
+                        {/* <img src="" className='w-24' alt="" srcset="" /> */}
                     </a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
