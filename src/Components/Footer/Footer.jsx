@@ -4,7 +4,7 @@ import CareerHub from '../../assets/All Images/CareerHub.png'
 const Footer = () => {
     return (
         <div>
-            <footer aria-label="Site Footer" className=" bg-slate-200 font-medium">
+            <footer aria-label="Site Footer" className=" bg-slate-200 font-medium ">
                 <div
                     className="max-w-screen-xl px-4 py-16 mx-auto space-y-8 sm:px-6 lg:space-y-16 lg:px-8 ">
                     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 ">
