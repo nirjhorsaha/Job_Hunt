@@ -11,10 +11,6 @@ const JobSection = () => {
             .then((data) => setJobs(data))
     }, []);
 
-    const seeAllBtn = () => {
-        console.log('btn clicked');
-    }
-
     return (
         <div className='text-center my-6'>
             <h1 className='text-5xl custom-text p-4'>Featured Jobs </h1>
@@ -22,14 +18,24 @@ const JobSection = () => {
             <div className="grid md:grid-cols-2 gap-4 md:w-3/4 mx-auto">
                 {/* featured job card */}
                 {
-                    jobs.map((job) => <SingleJobs
+                    seeAll === true ? jobs.map((job) => <SingleJobs
                         key={job.id}
                         job={job}
                     >
-                    </SingleJobs>).slice(0,4)
+                    </SingleJobs>).slice(0, 6)
+                        : jobs.map((job) => <SingleJobs
+                            key={job.id}
+                            job={job}
+                        >
+                        </SingleJobs>).slice(0, 4)
+
                 }
             </div>
-            <button onClick={()=> setAll(true)} className='custom-btn mt-6'>Show All</button>
+            {
+                seeAll === true ?
+                    <button button onClick={() => setAll(!seeAll)} className='custom-btn mt-6'>Show Less</button>
+                    : <button onClick={() => setAll(!seeAll)} className='custom-btn mt-6'>Show All</button>
+            }
         </div>
     );
 };

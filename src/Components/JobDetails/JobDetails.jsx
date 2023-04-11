@@ -11,12 +11,11 @@ const JobDetails = () => {
         fetch('/company.json')
             .then(response => response.json())
             .then(data => {
-                const all = data?.find(d => d.id == id.id)
+                const all = data?.find(d => parseInt(d.id) === parseInt(id.id))
                 setDetails(all)
             })
     }, [])
-    console.log(details.contact_information);
-    // const [job_description, job_responsibility, educational_requirements, experiences, salary, job_title, location] = details;
+    console.log(details.contact_information?.email);
 
     
     return (
@@ -59,13 +58,13 @@ const JobDetails = () => {
                         <p className='flex mt-2'><PhoneIcon className="h-6 w-6 text-blue-500" />
                             <div>
                                 <span className='font-bold ml-2'>Phone: </span>
-                                
+                                {details.contact_information?.phone}
                             </div>
                         </p>
                         <p className='flex mt-2'><EnvelopeIcon className="h-6 w-6 text-blue-500" />
                             <div>
-                                <span className='font-bold ml-2'>Email:</span>
-                                
+                                <span className='font-bold ml-2'>Email: </span>
+                                 {details.contact_information?.email}
                             </div>
                         </p>
 
