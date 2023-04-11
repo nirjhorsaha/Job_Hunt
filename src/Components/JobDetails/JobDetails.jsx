@@ -1,47 +1,39 @@
 import React, { useEffect, useState } from 'react';
 import { CurrencyDollarIcon, CalendarDaysIcon, PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/solid'
-import { useLoaderData, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
 const JobDetails = () => {
-    const dynamic = useParams();
-    console.log(dynamic.id);
-
-    // const detailss = useLoaderData();
-    // setDetails(detailss);
+    const id = useParams();
     
     const [details, setDetails] = useState({});
-    // useEffect(() => {
-    //     fetch(`/company.json/${dynamic.id}`)
-    //         .then(response => response.json())
-    //         .then(data => console.log(data))
-    // }, [])
-    // console.log(details);
+ 
+    useEffect(() => {
+        fetch('/company.json')
+            .then(response => response.json())
+            .then(data => {
+                const all = data?.find(d => d.id == id.id)
+                setDetails(all)
+            })
+    }, [])
+    console.log(details.contact_information);
+    // const [job_description, job_responsibility, educational_requirements, experiences, salary, job_title, location] = details;
 
-    // useEffect(() => {
-    //     if (detailss) {
-    //         const detailsData = detailss.find(dt => dt.id === id)
-    //         setDetails(detailsData);
-    //         // console.log(detailsData);
-    //    } 
-    // }, [])
-    // // console.log(details);
     
     return (
         <div >
-            <h1 className='text-5xl text-center bg-gradient-to-r from-indigo-500 to-indigo-800 bg-clip-text text-transparent p-2 mb-8'>Job Details</h1>
-
+            <h1 className='text-5xl text-center bg-gradient-to-r from-indigo-500 to-indigo-800 bg-clip-text text-transparent p-2 mb-8'>{details.company_name} - Job Details</h1>
             <div className='md:flex px-16 gap-6'>
                 <div className="left w-11/12 text-lg">
                     <h1 className='tracking-wide'>
-                        <span className='font-bold'>Job Description:</span> A UI/UX (U ser Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.</h1>
+                        <span className='font-bold'>Job Description: </span>{details.job_description }</h1>
                     <h1 className='mt-4 tracking-wide'>
-                        <span className='font-bold '>Job Responsibility:</span> Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.
+                        <span className='font-bold '>Job Responsibility:</span> {details.job_responsibility}
                     </h1>
                     <h1 className='font-bold mt-4 tracking-wide'>Educational Requirements:</h1>
-                    <p className='tracking-wide'>Bachelor degree to complete any reputational university.</p>
+                    <p className='tracking-wide'>{details.educational_requirements}</p>
                     <h1 className='my-4 tracking-wide
 '>
-                        <span className='font-bold '>Experiences:</span> 3+ years of experience
+                        <span className='font-bold '>Experiences:</span> {details.experiences}
                     </h1>
                 </div>
                 <div className='md:w-2/4'>
@@ -50,15 +42,15 @@ const JobDetails = () => {
                         <hr />
                         <p className='flex mt-2'> <CurrencyDollarIcon className="h-6 w-6 text-blue-500" />
                             <div>
-                                <span className='font-bold ml-2 '>Salary : </span>
-                                100K - 150K (Per Month)
+                                <span className='font-bold ml-2 '>Salary: </span>
+                                {details.salary}
                             </div>
                         </p>
                         <p className='flex mt-2' >
                             <CalendarDaysIcon className="h-6 w-6 text-blue-500" />
                             <div>
-                                <span className='font-bold ml-2'>Job Title : </span>
-                                Product Designer
+                                <span className='font-bold ml-2'>Job Title: </span>
+                                {details.job_title}
                             </div>
                         </p>
 
@@ -66,22 +58,21 @@ const JobDetails = () => {
                         <hr />
                         <p className='flex mt-2'><PhoneIcon className="h-6 w-6 text-blue-500" />
                             <div>
-                                <span className='font-bold ml-2'>Phone : </span>
-                                01750-00 00 00
+                                <span className='font-bold ml-2'>Phone: </span>
+                                
                             </div>
                         </p>
                         <p className='flex mt-2'><EnvelopeIcon className="h-6 w-6 text-blue-500" />
                             <div>
-                                <span className='font-bold ml-2'>Email :</span>
-                                info@gmail.com
+                                <span className='font-bold ml-2'>Email:</span>
+                                
                             </div>
                         </p>
 
                         <p className='flex mt-2'> <MapPinIcon className="h-6 w-6 text-blue-500" />
                             <div>
-                                <span className='font-bold ml-2'>Address :  </span>
-                                Dhanmondi 32, Sukrabad
-                                Bangladesh
+                                <span className='font-bold ml-2'>Address:  </span>
+                                {details.location}
                             </div>
                         </p>
                     </div>
