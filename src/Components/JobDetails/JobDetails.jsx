@@ -7,7 +7,7 @@ const JobDetails = () => {
             <h1 className='text-5xl text-center bg-gradient-to-r from-indigo-500 to-indigo-800 bg-clip-text text-transparent p-2 mb-8'>Job Details</h1>
 
             <div className='md:flex px-16 gap-6'>
-                <div className="left w-11/12">
+                <div className="left w-11/12 text-lg">
                     <h1 className='tracking-wide'>
                         <span className='font-bold'>Job Description:</span> A UI/UX (U ser Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.</h1>
                     <h1 className='mt-4 tracking-wide'>
@@ -21,7 +21,7 @@ const JobDetails = () => {
                     </h1>
                 </div>
                 <div className='md:w-2/4'>
-                    <div className="right border-4 p-4 leading-loose">
+                    <div className="right  rounded-xl border-4 p-4 leading-loose">
                         <h1 className='font-bold text-xl mb-2'>Job Details</h1>
                         <hr />
                         <p className='flex mt-2'> <CurrencyDollarIcon className="h-6 w-6 text-blue-500" />

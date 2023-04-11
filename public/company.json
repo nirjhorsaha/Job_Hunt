@@ -19,31 +19,31 @@
     },
     {
         "id": 2,
-        "company_logo": "https://logos-world.net/wp-content/uploads/2020/04/Facebook-Logo-700x394.png",
+        "company_logo": "https://www.logo.wine/a/logo/Airbnb/Airbnb-Logo.wine.svg",
         "job_title": "Solution Architect",
-        "company_name": "Facebook",
+        "company_name": "Airbnb",
         "remote_or_onsite": "Remote",
         "location": "Anywhere",
         "fulltime_or_parttime": "Fulltime",
-        "salary": "$50,000 - $70,000",
+        "salary": "$80,000 - $120,000",
         "job_description": "Our team is looking for a high performance Solutions Architect with an entrepreneurial mindset. As a Solutions Architect, you will lead the advertising industry by enabling clients to realize the full potential of Facebook's marketing solutions and even defining new solutions. You will work with marketing executives at top-tier companies on their industry-leading advertising initiatives, translating their business goals into an execution plan using Facebook’s suite of cutting-edge advertising solutions. This role will allow you to apply your passion for problem solving to achieving real-world marketing results at Facebook scale",
         "job_responsibility": "Work as part of a broader Solutions Go-To-Market team to contribute technical assets, prioritize, and shape solution direction, while impacting business and bookings. Provide domain expertise around public cloud and enterprise technology, promote Google Cloud with customers, at conferences, and online",
         "educational_requirements": "Bachelor's degree in Computer Science, a related field, or equivalent practical experience",
         "experiences": "2+ Years in this field.",
         "contact_information": {
             "phone": "555-555-5555",
-            "email": "facebook@career.com"
+            "email": "airbnb@career.com"
         }
     },
     {
         "id": 3,
-        "company_logo": "https://wallpaperaccess.com/full/2772922.png",
+        "company_logo": "https://www.logo.wine/a/logo/Netflix/Netflix-Logo.wine.svg",
         "job_title": "Dev Ops Engineer",
         "company_name": "Netflix",
         "remote_or_onsite": "Onsite",
         "location": "Chicago, IL",
         "fulltime_or_parttime": "Part-time",
-        "salary": "$15 - $20 per hour",
+        "salary": "$95,000 - $120,000",
         "job_description": "Next Games is a Netflix Game Studio, focusing on creating compelling fans-first interactive experiences by combining the stories of well-known movies and shows with engaging game mechanics. An unwavering focus on fans and fun gameplay is at the core of the studio’s game development, free from the constraints of free-to-play. The Senior DevOps Engineer will help us to create fun!",
         "job_responsibility": "You will be responsible for improving and developing our CI/CD pipelines, identifying issues and performance improvements, and implementing integrations so that our game developers can focus on creating fabulous games. As the ideal candidate you will have a solid background in software engineering and be familiar with C# and Shell scripts. GitHub is our primary repository system, where GitHub workflows are a must for us. The DevOps team works with developers and engineers of the game teams to ensure that software development follows established processes and works as intended. The DevOps engineer will also help plan projects and be involved in project management decisions.",
         "educational_requirements": "Bachelor's degree in Computer Science, a related field, or equivalent practical experience",
@@ -55,31 +55,31 @@
     },
     {
         "id": 4,
-        "company_logo": "https://www.annualreports.com/HostedData/CompanyLogos/NASDAQ_AAPL.png",
+        "company_logo": "https://www.logo.wine/a/logo/Planet_Labs/Planet_Labs-Logo.wine.svg",
         "job_title": "Data Engineer",
-        "company_name": "Apple",
+        "company_name": "Planet",
         "remote_or_onsite": "Remote",
         "location": "Anywhere",
         "fulltime_or_parttime": "Fulltime",
-        "salary": "$35,000 - $45,000",
+        "salary": "$115,000 - $145,000",
         "job_description": "As part of our Video Engineering group, you’ll help deliver creative solutions to various problems that could impact the people all over the world. ",
         "job_responsibility": "This Data Engineer will work closely with other members of the Video Engineering group to mine data, implement model evaluation pipeline, analyze large scale data, visualize data, and ensure the delivery is of the highest quality. This position will also require strong coding skills, presentation skills, and collaborating with multiple teams (ex: machine learning, cloud infrastructure support).",
         "educational_requirements": "Bachelor's degree in Computer Science, a related field, or equivalent practical experience",
         "experiences": "1+ year of experience in this field",
         "contact_information": {
             "phone": "555-555-5555",
-            "email": "apple@career.com"
+            "email": "planet@career.com"
         }
     },
     {
         "id": 5,
-        "company_logo": "https://logowik.com/content/uploads/images/tesla.jpg",
+        "company_logo": "https://www.logo.wine/a/logo/Tesla%2C_Inc./Tesla%2C_Inc.-Wordmark-Red-Logo.wine.svg",
         "job_title": "Industrial Engineer",
         "company_name": "Tesla",
         "remote_or_onsite": "Onsite",
         "location": "Los Angeles, CA",
         "fulltime_or_parttime": "Fulltime",
-        "salary": "$35,000 - $45,000",
+        "salary": "$95,000 - $145,000",
         "job_description": "Tesla is currently seeking a motivated and accomplished Industrial Engineer who will be the owner of Material Flow initiatives for production. The position will be based in Lathrop site of Tesla.",
         "job_responsibility": "Display a positive attitude and practice strong work ethics that reflects the mission, philosophy and goals of Tesla. Work with internal operations and material flow engineering teams to ensure that equipment and layout designs align with the overall material flow plan and vision for the factory",
         "educational_requirements": "Bachelor's degree in Computer Science, a related field, or equivalent practical experience",
@@ -91,20 +91,20 @@
     },
     {
         "id": 6,
-        "company_logo": "https://example.com/logo.png",
-        "job_title": "Principal Software Engineer",
-        "company_name": "Microsoft",
+        "company_logo": "https://www.logo.wine/a/logo/Stripe_(company)/Stripe_(company)-Logo.wine.svg",
+        "job_title": "Product Manager",
+        "company_name": "Stripe",
         "remote_or_onsite": "Remote",
         "location": "Anywhere",
         "fulltime_or_parttime": "Fulltime",
-        "salary": "$35,000 - $45,000",
+        "salary": "$75,000 - $115,000",
         "job_description": "As a Principal Software Engineer in this org, you will architect on customer scenarios to build modern experiences for IT workers and building world class backend and analytical services s. In this role you will be working on one of the following design problems 1. Modernize our Resource Access microservices for scale and simplicity 2. Scale Intune reporting capabilities and improve visibility on device compliance levels 3.Scale device health data pipelines and build experimentation platform within compliance boundary.",
         "job_responsibility": "Develop design approaches, evaluate pros/cons of approaches for a feature enhancement. Become subject matter expert in the owned features. Mentor the team members with technical guidance and improve the engineering process. Active coding and participation in peer code review, design reviews. Lead the team in hackathons and promote new ideas.",
         "educational_requirements": "Bachelor's degree in Computer Science, a related field, or equivalent practical experience",
         "experiences": "3+ year of experience in this field",
         "contact_information": {
             "phone": "555-555-5555",
-            "email": "microsoft@career.com"
+            "email": "stripe@career.com"
         }
     }
 ]
