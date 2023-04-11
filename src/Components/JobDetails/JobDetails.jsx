@@ -1,7 +1,31 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { CurrencyDollarIcon, CalendarDaysIcon, PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/solid'
+import { useLoaderData, useParams } from 'react-router-dom';
 
 const JobDetails = () => {
+    const dynamic = useParams();
+    console.log(dynamic.id);
+
+    // const detailss = useLoaderData();
+    // setDetails(detailss);
+    
+    const [details, setDetails] = useState({});
+    // useEffect(() => {
+    //     fetch(`/company.json/${dynamic.id}`)
+    //         .then(response => response.json())
+    //         .then(data => console.log(data))
+    // }, [])
+    // console.log(details);
+
+    // useEffect(() => {
+    //     if (detailss) {
+    //         const detailsData = detailss.find(dt => dt.id === id)
+    //         setDetails(detailsData);
+    //         // console.log(detailsData);
+    //    } 
+    // }, [])
+    // // console.log(details);
+    
     return (
         <div >
             <h1 className='text-5xl text-center bg-gradient-to-r from-indigo-500 to-indigo-800 bg-clip-text text-transparent p-2 mb-8'>Job Details</h1>
