@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { CurrencyDollarIcon, CalendarDaysIcon, PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/solid'
 import { useParams } from 'react-router-dom';
+import toast, { Toaster } from 'react-hot-toast';
 
 const JobDetails = () => {
     const id = useParams();
+
+    const notify = () => toast.success('Successfully Applied!');
     
     const [details, setDetails] = useState({});
  
@@ -15,7 +18,8 @@ const JobDetails = () => {
                 setDetails(all)
             })
     }, [])
-    console.log(details.contact_information?.email);
+    
+    
 
     
     return (
@@ -75,7 +79,8 @@ const JobDetails = () => {
                             </div>
                         </p>
                     </div>
-                    <button className='custom-btn w-full mt-4'>Apply Now</button>
+                    <button onClick={notify} className='custom-btn w-full mt-4'>Apply Now</button>
+                    <Toaster />
                 </div>
 
             </div>
