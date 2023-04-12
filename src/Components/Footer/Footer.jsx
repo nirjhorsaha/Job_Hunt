@@ -4,17 +4,18 @@ import CareerHub from '../../assets/All Images/CareerHub.png'
 const Footer = () => {
     return (
         <div>
-            <footer aria-label="Site Footer" className=" bg-slate-200 font-medium ">
+            <footer aria-label="Site Footer" className=" bg-slate-200 font-medium rounded-t-3xl">
                 <div
                     className="max-w-screen-xl px-4 py-8 mx-auto space-y-8 sm:px-6 lg:space-y-16 lg:p-12 ">
                     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 ">
-                        <div>
-                            <img src={CareerHub} alt="" srcset="" />
+                        <div> 
+                            <p className='text-5xl'>Job Hunt</p>
+                            {/* <img src={CareerHub} alt="" srcset="" /> */}
                             <p className="max-w-xs mt-4 text-gray-500 text-start">
                                 There are many variations of passages of Lorem Ipsum , but the majority have suffered alteration in some form.
                             </p>
 
-                            <ul className="flex gap-6 mt-8 ">
+                            <ul className="flex gap-6 mt-8 justify-center md:justify-start">
                                 <li>
                                     <a
                                         href="/"
@@ -116,11 +117,8 @@ const Footer = () => {
                         >
                             <div>
                                 <p className="font-medium text-gray-900">Services</p>
-
-                                <nav aria-label="Footer Navigation - Services" className="mt-6">
-                                    <ul className="space-y-4 text-sm">
-                                       
-
+                                <nav aria-label="Footer Navigation - Services" className="mt-6 ">
+                                    <ul className="space-y-4 text-sm ">
                                         <li>
                                             <a href="#" className="text-gray-700 transition hover:opacity-75">
                                                 Company Review
@@ -235,7 +233,7 @@ const Footer = () => {
                     </div>
 
                     <p className="font-bold text-gray-500 text-center bg-gradient-to-r from-indigo-500 to-indigo-800 bg-clip-text text-transparent">
-                        &copy; 2023. Career Hub. All rights reserved.
+                        &copy; 2023. Job Hunt. All rights reserved.
                     </p>
                 </div>
             </footer>

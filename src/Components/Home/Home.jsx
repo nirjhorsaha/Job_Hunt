@@ -10,7 +10,7 @@ const Home = () => {
     // console.log(category);
     
     return (
-        <div className='p-10'>
+        <div className='pt-10 px-10'>
             <Header />
             <JobCategory category={category} 
             />
