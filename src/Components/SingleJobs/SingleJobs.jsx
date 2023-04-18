@@ -7,7 +7,7 @@ const SingleJobs = ({ job }) => {
     const { company_logo, company_name, job_title, location, remote_or_onsite, salary} = job;
     return (
         <div>
-            <div className='mx-auto border-2 rounded-xl items-center p-4 bg-slate-200'>
+            <div className='mx-auto border-2 rounded-xl items-center p-4  bg-slate-200'>
                 <div className='gap-4 items-center'>
                     <div className="image p-2">
                         <img src={company_logo} className='w-36'
@@ -26,10 +26,12 @@ const SingleJobs = ({ job }) => {
                         <div className='md:flex'>
                             <p className='flex items-center mr-6'>
                                 <MapPinIcon className="h-6 w-6 text-blue-500" />
-                                {location}</p>
+                                {location}
+                            </p>
                             <p className='flex items-center mt-2 md:mt-0'>
                                 <CurrencyDollarIcon className="h-6 w-6 text-blue-500" />
-                                Salary : {salary}</p>
+                                Salary : {salary}
+                            </p>
                         </div>
                     </div>
                 </div>

@@ -18,17 +18,16 @@ const JobSection = () => {
             <div className="grid md:grid-cols-2 gap-4 md:w-3/4 mx-auto">
                 {/* featured job card */}
                 {
-                    seeAll === true ? jobs.map((job) => <SingleJobs
-                        key={job.id}
-                        job={job}
-                    >
-                    </SingleJobs>).slice(0, 6)
+                    seeAll === true ?
+                        jobs.map((job) => <SingleJobs
+                            key={job.id}
+                            job={job}
+                        ></SingleJobs>).slice(0, )
                         : jobs.map((job) => <SingleJobs
                             key={job.id}
                             job={job}
                         >
                         </SingleJobs>).slice(0, 4)
-
                 }
             </div>
             {

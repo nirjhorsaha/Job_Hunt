@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "company_logo": "https://1000logos.net/wp-content/uploads/2021/05/Google-logo-500x281.png",
+        "company_logo": "https://www.logo.wine/a/logo/Google/Google-Logo.wine.svg",
         "job_title": "Sr. Software Engineer",
         "company_name": "Google LLC",
         "remote_or_onsite": "Onsite",
@@ -105,6 +105,78 @@
         "contact_information": {
             "phone": "225-255-2255",
             "email": "stripe@career.com"
+        }
+    },
+    {
+        "id": 7,
+        "company_logo": "https://www.logo.wine/a/logo/Walmart/Walmart-Logo.wine.svg",
+        "job_title": "Automation Engineering",
+        "company_name": "Walmart",
+        "remote_or_onsite": "Onsite",
+        "location": "Anywhere",
+        "fulltime_or_parttime": "Fulltime",
+        "salary": "$135,000 - $150,000",
+        "job_description": "As a part of the Walmart Supply Chain organization, you will contribute to the growth and delivery of our Supply Chain Engineering team! Why? Because Sam Walton founded our company with the belief that the customer is #1. It is not just a belief, but our way of doing business. With our Supply Chain Team at the forefront of retail transformation you can work on a team that is ultimately focused on delighting our customers, saving them both time and money in unexpected ways",
+        "job_responsibility": "Leading a team of engineers to transform the world's largest grocery supply chain by implementing new processes and technology. Enabling more intelligent investment decisions by providing granularity of costs throughout the supply chain",
+        "educational_requirements": "Bachelor's degree in Computer Science, a related field, or equivalent practical experience",
+        "experiences": "3+ year of experience in automation design and implementation",
+        "contact_information": {
+            "phone": "235-235-2355",
+            "email": "walmart@career.com"
+        }
+    },
+    {
+        "id": 8,
+        "company_logo": "https://www.logo.wine/a/logo/Snowflake_Inc./Snowflake_Inc.-Logo.wine.svg",
+        "job_title": "Cloud Services Engineering",
+        "company_name": "Snowflake_Inc",
+        "remote_or_onsite": "Onsite",
+        "location": "Anywhere",
+        "fulltime_or_parttime": "Fulltime",
+        "salary": "$95,000 - $130,000",
+        "job_description": "We’re hiring talented Cloud Services Engineers that are passionate about using software-based approaches to solve complex challenges and automate those solutions.  You’ll be part of the cloud engineering organization where we have a strong focus on using engineering and software practices to manage and scale our cloud infrastructure.  Working in cloud engineering, you’ll lead and contribute to initiatives aimed at supporting our infrastructure, process, systems, and automation.  You’ll build a deep understanding of Snowflake's service and use that knowledge to optimize and evolve our infrastructure reliability, availability, serviceability, and profitability.",
+        "job_responsibility": "Working in cloud engineering, you’ll lead and contribute to initiatives aimed at supporting our infrastructure, process, systems, and automation, A deep understanding of Snowflake's service and use that knowledge to optimize and evolve our infrastructure reliability, availability, serviceability, and profitability",
+        "educational_requirements": "Bachelor's degree in Computer Science, a related field, or equivalent practical experience",
+        "experiences": "3+ year of experience in infrastructure-as-code, including using tools like Terraform and Ansible",
+        "contact_information": {
+            "phone": "233-233-2332",
+            "email": "snowflake@career.com"
+        }
+    },
+    {
+        "id": 9,
+        "company_logo": "https://www.logo.wine/a/logo/Meta_Platforms/Meta_Platforms-Logo.wine.svg",
+        "job_title": "Technical Program Manager",
+        "company_name": "Meta",
+        "remote_or_onsite": "Onsite",
+        "location": "Seattle, WA ",
+        "fulltime_or_parttime": "Fulltime",
+        "salary": "$85,000 - $145,000",
+        "job_description": "This team of mission-minded individuals are experts in the landscape of device and systems security and are passionate about building capabilities and solutions to implement the correct safeguards and technical mitigations to ensure that our users’ security is honored across the Meta family of products. We work with RL product and Meta central security teams to define, design, implement and manage these solutions at 1) Device HW, 2) OS, and 3) 1P/3P App layers.",
+        "job_responsibility": "Manage engineering programs that enhance security of Meta Reality Labs’ products and infrastructure. Identify product needs in technically complex areas, scope the requirements, and collaborate with Engineering to lay out end-to-end detailed schedules and plans. Identify and manage risks. Develop, track, and communicate roadmaps, execution plans, proposals, status updates, and key decisions.Develop end to end processes, mechanisms, cadence and scalable frameworks to manage vulnerability lifecycle.",
+        "educational_requirements": "Bachelor's degree in Computer Science, a related field, or equivalent practical experience",
+        "experiences": "2+ year of experience in systems security",
+        "contact_information": {
+            "phone": "273-273-2772",
+            "email": "meta@career.com"
+        }
+    },
+    {
+        "id": 10,
+        "company_logo": "https://www.logo.wine/a/logo/Amazon_(company)/Amazon_(company)-Logo.wine.svg",
+        "job_title": "Site Reliability Engineer",
+        "company_name": "Amazon",
+        "remote_or_onsite": "Onsite",
+        "location": "GB, London",
+        "fulltime_or_parttime": "Fulltime",
+        "salary": "$75,000 - $110,000",
+        "job_description": "Would you like to be an Engineer that builds the Cloud, rather than an Engineer that just uses it? At AWS, our Engineers look after the behind-the-scenes software and tools that make the world's largest cloud computing infrastructure possible. We have an amazing opportunity for you to join a world-class network team in a dynamic environment that has the feel of a start-up. As a Site Reliability Engineer (SRE) you will help to deploy, manage, fix and reinvent the tools, services and components that the network engineers rely on to automate our network and keep it operational. Your internal customers are your network engineering colleagues, and through close collaboration, support and exchange of ideas, we share a common goal to serve our external customers and grow through learning and innovation.",
+        "job_responsibility": "Simplifying and reinventing systems, processes, and tools to make things better for our customers. Managing and growing innovative, production-quality tools to solve real operational problems for our network. Investigating technical issues scientifically and thoroughly, and assist in fixing them so they don't come back. Providing technical solutions to real business problems in a global organization",
+        "educational_requirements": "Bachelor's degree in Computer Science, a related field, or equivalent practical experience",
+        "experiences": "2+ year of experience in a large – scale network environment",
+        "contact_information": {
+            "phone": "239-239-2399",
+            "email": "amazon@career.com"
         }
     }
 ]

@@ -64,7 +64,8 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="custom-btn">Start Applying</a>
+                    {/* <a className="custom-btn">Start Applying</a> */}
+                    <Link to='/' className='custom-btn'>Start Applying</Link>
                 </div>
             </div>
         </div>
