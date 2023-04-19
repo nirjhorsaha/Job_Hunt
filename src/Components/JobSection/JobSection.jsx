@@ -4,7 +4,7 @@ import SingleJobs from '../SingleJobs/SingleJobs';
 const JobSection = () => {
     const [jobs, setJobs] = useState([]);
     const [seeAll, setAll] = useState(false);
-    // console.log(jobs.length);
+
     useEffect(() => {
         fetch('/company.json')
             .then((res) => res.json())
@@ -18,11 +18,11 @@ const JobSection = () => {
             <div className="grid md:grid-cols-2 gap-4 md:w-3/4 mx-auto">
                 {/* featured job card */}
                 {
-                    seeAll === true ?
+                    seeAll ?
                         jobs.map((job) => <SingleJobs
                             key={job.id}
                             job={job}
-                        ></SingleJobs>).slice(0, )
+                        ></SingleJobs>)
                         : jobs.map((job) => <SingleJobs
                             key={job.id}
                             job={job}
@@ -31,8 +31,9 @@ const JobSection = () => {
                 }
             </div>
             {
-                seeAll === true ?
-                    <button button onClick={() => setAll(!seeAll)} className='custom-btn mt-6'>Show Less</button>
+                seeAll ?
+                // seeAll === true ?
+                    <button onClick={() => setAll(!seeAll)} className='custom-btn mt-6'>Show Less</button>
                     : <button onClick={() => setAll(!seeAll)} className='custom-btn mt-6'>Show All</button>
             }
         </div>

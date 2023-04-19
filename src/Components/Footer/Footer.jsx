@@ -9,7 +9,7 @@ const Footer = () => {
                     className="max-w-screen-xl px-4 py-8 mx-auto space-y-8 sm:px-6 lg:space-y-16 lg:p-12 ">
                     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 ">
                         <div> 
-                            <p className='text-5xl'>Job Hunt</p>
+                            <p className='text-5xl custom-text'>Job Hunt</p>
                             {/* <img src={CareerHub} alt="" srcset="" /> */}
                             <p className="max-w-xs mt-4 text-gray-500 text-start">
                                 There are many variations of passages of Lorem Ipsum , but the majority have suffered alteration in some form.
@@ -232,7 +232,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <p className="font-bold text-gray-500 text-center bg-gradient-to-r from-indigo-500 to-indigo-800 bg-clip-text text-transparent">
+                    <p className="font-bold text-gray-500 text-center bg-gradient-to-r from-indigo-500 to-indigo-800 bg-clip-text text-transparent italic">
                         &copy; 2023. Job Hunt. All rights reserved.
                     </p>
                 </div>

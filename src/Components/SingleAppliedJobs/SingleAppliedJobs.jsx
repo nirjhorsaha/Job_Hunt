@@ -2,9 +2,9 @@ import React from 'react';
 import { MapPinIcon, CurrencyDollarIcon } from '@heroicons/react/24/solid'
 import { Link } from 'react-router-dom';
 
-const SingleAppliedJobs = ({ item }) => {
-    // console.log(item);
-    const { company_logo, company_name, job_title, remote_or_onsite, location, salary } = item;
+const SingleAppliedJobs = ({ singleJob }) => {
+    // console.log(singleJob);
+    const { company_logo, company_name, job_title, remote_or_onsite, location, salary } = singleJob;
     return (
         <div className='md:flex w-80 md:w-3/5 mx-auto border-2 rounded-3xl justify-between items-center p-4 bg-slate-200 mb-4'>
             <div className='md:flex gap-4 items-center'>
@@ -27,7 +27,7 @@ const SingleAppliedJobs = ({ item }) => {
                 </div>
             </div>
             <div>
-                <Link to={`/details/${item.id}`} className='custom-btn mt-4 w-full '>
+                <Link to={`/details/${singleJob.id}`} className='custom-btn mt-4 w-full '>
                     View Details
                 </Link>
             </div>

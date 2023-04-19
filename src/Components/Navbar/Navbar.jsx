@@ -35,9 +35,7 @@ const Navbar = () => {
                             </li>
                         </ul>
                     </div>
-                    <a className="normal-case text-5xl custom-text font-bold"> Job Hunt
-                        {/* <img src="" className='w-24' alt="" srcset="" /> */}
-                    </a>
+                    <Link to="/" className='normal-case text-5xl custom-text font-bold'>Job Hunt</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 tracking-wider font-medium">
