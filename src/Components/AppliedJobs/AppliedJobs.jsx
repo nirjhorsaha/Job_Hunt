@@ -9,7 +9,6 @@ const AppliedJobs = () => {
 
     useEffect(() => {
         let getData = JSON.parse(localStorage.getItem('jobs'));
-        // console.log(getData);
         setTransfer(getData);
         // setData(getData);
     }, [])
