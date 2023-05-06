@@ -2,9 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { CurrencyDollarIcon, CalendarDaysIcon, PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/solid'
 import { useParams } from 'react-router-dom';
 import toast, { Toaster } from 'react-hot-toast';
+import useTitle from '../hooks/useTitle';
 
 const JobDetails = () => {
     const id = useParams();
+    useTitle("Job Details")
 
     // const notify = () => toast.success('Successfully Applied!');
 

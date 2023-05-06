@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import './AppliedJobs.css'
 import SingleAppliedJobs from '../SingleAppliedJobs/SingleAppliedJobs';
+import useTitle from '../hooks/useTitle';
 
 
 const AppliedJobs = () => {
     const [storedJob, setStoredJob] = useState([])
     const [data, setData] = useState([]);
     // console.log(data);
+    useTitle('Applied Job')
 
     useEffect(() => {
         let getData = JSON.parse(localStorage.getItem('jobs'));
@@ -40,7 +42,6 @@ const AppliedJobs = () => {
                             <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Remote</a></li>
                         </ul>
                     </div> */}
-                    
                     <label for="cars" className='font-semibold'>Filter by: </label>
                     <select name="cars" id="cars" onChange={handleFilter} className='bg-gray-300 text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center '>
                         <option value="Filter">Filter By</option>
